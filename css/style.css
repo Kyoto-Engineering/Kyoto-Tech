@@ -407,7 +407,7 @@ i.service-icon:hover {
 
 .quotes{
     
-    background-color: cadetblue;
+    background-color:blue;
     padding: 5px;
 }
 
@@ -416,6 +416,7 @@ srvc-bnr{
 }
  
 .caption-img {
+    
 	position: absolute;
 	right: 30%;
 	top: calc(50% - 200px);
@@ -423,12 +424,72 @@ srvc-bnr{
 	left: 0%;
 	z-index: 10;
 	padding-bottom: 50px;
-	color:#BD6123;
+    
+	color:#f441d3;
 	text-align: center;
-    font-size: 19px;
+    text-decoration-color: azure;
+    font-size: 24px;
     font-family:cursive;
     
     
+    
+}
+
+
+.client-caption-img{
+    
+    	position: absolute;
+	right: 30%;
+	top: calc(50% - 200px);
+	
+	left: 0%;
+	z-index: 10;
+	padding-bottom: 50px;
+    
+	color:#fff;
+	text-align: center;
+    
+    font-size: 24px;
+    font-family:cursive;
+    
+    
+}
+
+.sales-caption-img{
+    
+    
+    	position: absolute;
+	right: 30%;
+	top: calc(50% - 200px);
+	
+	left: 0%;
+	z-index: 10;
+	padding-bottom: 50px;
+    
+	color:#FEF200;
+	text-align: center;
+    
+    font-size: 24px;
+    font-family:cursive;
+    
+}
+
+.secretariat-caption-img{
+    
+
+    	position: absolute;
+	right: 30%;
+	top: calc(50% - 200px);
+	
+	left: 0%;
+	z-index: 10;
+	padding-bottom: 50px;
+    
+	color:#f44141;
+	text-align: center;
+    
+    font-size: 24px;
+    font-family:cursive;
     
 }
 .new-line{
