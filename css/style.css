@@ -37,7 +37,7 @@ h1,h3,h4,h5,h6 {
 	font-style: normal;
 	margin: 0 0 20px 0;
 }
-h1 { font-size: 40px; line-height: 49px;  color:green;vertical-align: text-top;text-shadow: 2px 2px #FF0000;}
+h1 { font-size: 40px; line-height: 70px;  }
 
 h2 { font-size: 20px; }
 h3 { font-size: 24px; }
@@ -49,12 +49,22 @@ h5 { font-size: 16px; }
 .txt-uppercase { text-transform: uppercase; }
 
 h1 span{
-    font-size: 60px;
+    font-size: 120px;
     color:darkgreen;
 }
 h2 span{
     font-size: 60px;
     color:#7CBA49;
+}
+
+h1 span{
+  font-size: 8.0vw;
+}
+h2 span{
+  font-size: 5.0vw;
+}
+p {
+  font-size: 2vw;
 }
 
 blockquote {
@@ -428,7 +438,7 @@ srvc-bnr{
 .caption-img {
     
 	position: absolute;
-	right: 30%;
+	right: 8%;
 	top: calc(50% - 200px);
 	
 	left: 0%;
@@ -440,7 +450,8 @@ srvc-bnr{
     
     font-size: 24px;
     font-family:cursive;
-    text-shadow: 2px 2px #ff0000;
+  
+   
 
 }
 
@@ -453,6 +464,10 @@ srvc-bnr{
     
     
 }
+
+
+
+
 
 
 
@@ -577,7 +592,7 @@ srvc-bnr{
 	margin-bottom: 40px;
 }
 .mar-bot45 {
-  
+  margin-top: 50px;
 	margin-bottom: 45px;
 }
 
