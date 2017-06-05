@@ -451,9 +451,7 @@ srvc-bnr{
     font-size: 24px;
     font-family:cursive;
   
-   
-    
-   
+
 
 }
 
@@ -464,17 +462,6 @@ srvc-bnr{
     
     
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
     
@@ -2010,7 +1997,7 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
  
  
  .copyright { min-height:40px; background-color:#000000;}
- .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
+ .copyright span { text-align:left; color:#FFF; padding:20px 0; margin-top:10px;}
  .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
  .post p { font-size:12px; color:#FFF; line-height:20px;}
  .post p span { display:block; color:#8f8f8f;}
