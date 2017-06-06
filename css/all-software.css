@@ -1,4 +1,9 @@
-h1{margin-top:0px}
+
+h1 {
+    margin-top: 22px;
+}
+
+
 .mar-top60{
     
     margin-top: 115px;
@@ -46,4 +51,11 @@ body{
     .p{
         
   background-color: black;
+    }
+    
+    hr{
+        margin-top: 10;
+        margin-bottom: 20px;
+    border: 0;
+    border-top: 4px solid #47484B;
     }
