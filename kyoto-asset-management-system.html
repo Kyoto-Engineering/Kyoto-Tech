@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="css/bootstrap-theme.css">
 		<link href="css/responsive-slider.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/style.css">
+        
     <link rel="stylesheet" href="css/all-software.css">
   
 
@@ -26,6 +26,7 @@
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.1.5/masonry.pkgd.min.js"></script>
 	<script src="script.js"></script>
+      <link rel="shortcut icon" href="./img/services/favicon.ico" type="image/x-icon" />
 </head>
 <body>
 	
@@ -33,35 +34,42 @@
 	
 	<!-- Header -->
 	
-	<div class="header">
-	<section id="header" class="appear">
-		
-		<div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
-			
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="fa fa-bars color-white"></span>
-					</button>
-					<h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">KYOTO TECH
-					</a></h1>
-				</div>
-				<div class="navbar-collapse collapse">
-					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
-						<li class="active"><a href="#index">Home</a></li>
-						<li><a href="#section-about">About</a></li>
-						<li><a href="#services">Service</a></li>
-						<li><a href="#team">Team</a></li>
-						<li><a href="#line-pricing">Pricing</a></li>
-						<li><a href="#section-works">Portfolio</a></li>
-						<li><a href="#section-contact">Contact</a></li>
-					</ul>
-				</div><!--/.navbar-collapse -->
-			</div>
-		
-		
-	</section>
-	</div>
-	
+ <div class="container-fluid">
+           <nav class="navbar navbar-inverse">
+              <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-3">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">KYOTO TECH</a>
+            </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-3">
+              <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+               <li><a href="#">Contact</a></li>
+                <li>
+                  <a class="btn btn-default btn-outline btn-circle"  data-toggle="collapse" href="#nav-collapse3" aria-expanded="false" aria-controls="nav-collapse3">Search</a>
+                </li>
+              </ul>
+              <div class="collapse nav navbar-nav nav-collapse" id="nav-collapse3">
+                <form class="navbar-form navbar-right" role="search">
+                  <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search" />
+                      </div>
+                      <button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    </form>
+                  </div>
+            </div><!-- /.navbar-collapse -->
+              </div><!-- /.container -->
+            </nav><!-- /.navbar -->
+
 	
 
     
@@ -70,6 +78,10 @@
         <div class="container">
         
            <div class="row">
+               
+               <div class="col-md-12">
+                   <div class="software-image"><img src="./img/services/asset/asset.png" alt=""></div>  </div><br/>
+                   
                <div class="col-md-12">
                 <h1> Kyoto CapEx management System</h1> <hr>
                 <p>Optimise your selection of an asset management software package.</p>
@@ -77,7 +89,7 @@
                    <p>The benefits of implementing asset management almost always exceed expectations.</p> <hr>
                </div>
 
-                 <div class="col-md-7">
+                 <div class="col-md-12">
                      
                      <H3>Common Requirements in IT  CapEx management Software:</H3> <hr>
                 
@@ -109,9 +121,7 @@ Those companies will usually gain all of the above benefits which are relevant t
                       </ul>
                
                </div>
-               <div class="col-md-5">
-                   <div class="software-image"><img src="img/asset.PNG" alt=""></div>  </div>
-                   
+               
                
 
         
@@ -137,7 +147,8 @@ Those companies will usually gain all of the above benefits which are relevant t
         </div>    
       </div>
    
-	
+	 </div>
+   
 
 
 
@@ -146,9 +157,6 @@ Those companies will usually gain all of the above benefits which are relevant t
 	 <script src="https://unpkg.com/draggabilly@2/dist/draggabilly.pkgd.min.js"></script>
 <!-- or -->
 <script src="https://unpkg.com/draggabilly@2/dist/draggabilly.pkgd.js"></script>
-	
-	
-	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>	
 
 	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
