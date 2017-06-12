@@ -29,7 +29,22 @@
 	 
     <body>
 	
-	
+             <!-- let's call the following div as the POPUP FRAME -->
+    <div id="popup" class="popup panel panel-primary">
+        
+        <!-- and here comes the image -->
+        <img src="../kyoto-tech/img/asd.jpg" alt="popup">
+            
+            <!-- Now this is the button which closes the popup-->
+        <div class="panel-footer">
+            <button id="close" class="btn btn-lg btn-primary">Close </button>
+        </div>
+            
+            <!-- and finally we close the POPUP FRAME-->
+            <!-- everything on it will show up within the popup so you can add more things not just an image -->
+    </div>
+		
+
 	<div class="header">
 	<section id="header" class="appear">
 		
@@ -58,7 +73,7 @@
 		
 	</section>
 	</div>
-	
+
 
 <div class="slider">		
 		<div id="about-slider">
@@ -1279,6 +1294,23 @@
     <script src="js/wow.min.js"></script>
 	<script>wow = new WOW({}).init();</script>
     <script src="contactform/contactform.js"></script>
+        
+        <script> //with this first line we're saying: "when the page loads (document is ready) run the following script"
+$(document).ready(function () {
+    //select the POPUP FRAME and show it
+    $("#popup").hide().fadeIn(1000);
+
+    //close the POPUP if the button with id="close" is clicked
+    $("#close").on("click", function (e) {
+        e.preventDefault();
+        $("#popup").fadeOut(1000);
+    });
+});
+        
+        
+        </script>
+        
+
 
 </body>
 </html>
